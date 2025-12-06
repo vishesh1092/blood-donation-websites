@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blood Donation & Tracking Application</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="logo">BloodTrack</div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#campaigns">Campaigns</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <h1>Donate Blood. Save Lives.</h1>
+    <p>Your contribution today can save someone's tomorrow.</p>
+    <button onclick="scrollToDonate()">Become a Donor</button>
+</section>
+
+<section id="about" class="section">
+    <h2>About Us</h2>
+    <p>We connect donors and hospitals through a simple, smart, and secure donation platform.</p>
+</section>
+
+<section id="features" class="section features">
+    <h2>Key Features</h2>
+    <div class="feature-box"><h3>Donor Registration</h3><p>Register and maintain your history.</p></div>
+    <div class="feature-box"><h3>Donation Tracking</h3><p>Track past donations and next availability.</p></div>
+    <div class="feature-box"><h3>Health Report</h3><p>Record hemoglobin, WBC, platelet levels.</p></div>
+    <div class="feature-box"><h3>Campaign Alerts</h3><p>Stay updated on donation drives.</p></div>
+</section>
+
+<section id="campaigns" class="section">
+    <h2>Upcoming Campaigns</h2>
+    <div id="campaign-list"></div>
+</section>
+
+<section class="section tracker">
+    <h2>Track Your Donation</h2>
+    <input type="date" id="donationDate">
+    <button onclick="saveDonation()">Save</button>
+    <p id="nextDonation"></p>
+</section>
+
+<section id="contact" class="section contact">
+    <h2>Contact Us</h2>
+    <form>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Message..."></textarea>
+        <button>Send Message</button>
+    </form>
+</section>
+
+<footer><p>© 2025 BloodTrack | Blood Donation & Tracking Application</p></footer>
+<script src="script.js"></script>
+</body>
+</html>

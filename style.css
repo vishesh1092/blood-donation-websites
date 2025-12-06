@@ -1,0 +1,15 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial;}
+header{background:#fff;padding:15px 40px;display:flex;justify-content:space-between;align-items:center;box-shadow:0 2px 5px rgba(0,0,0,.1);}
+.logo{font-size:22px;font-weight:bold;color:#c90000;}
+nav a{margin-left:20px;text-decoration:none;color:#333;font-weight:bold;}
+nav a:hover{color:#c90000;}
+.hero{background:#b00;color:white;height:60vh;display:flex;flex-direction:column;justify-content:center;text-align:center;}
+.hero button{padding:12px 25px;background:#ff0000;color:white;border:none;margin-top:15px;}
+.section{padding:50px;text-align:center;}
+.features{display:grid;grid-template-columns:repeat(2,1fr);gap:25px;}
+.feature-box{background:white;padding:20px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.1);}
+#campaign-list{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;}
+.campaign-card{background:white;padding:20px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.1);}
+.contact form{width:40%;margin:auto;display:flex;flex-direction:column;}
+.contact input,.contact textarea{margin-top:15px;padding:12px;border-radius:5px;border:1px solid #ccc;}
+footer{background:#222;color:white;padding:20px;text-align:center;margin-top:40px;}
